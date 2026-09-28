@@ -6,7 +6,6 @@ Dos fases: primero los ejercicios clásicos de ficheros secuenciales, de acceso 
 
 Teoría de referencia (pública): `teoria-ficheros.html`.
 
-Enunciado original: https://docs.google.com/document/d/1pAedH7v7nGfvQmwRHZg74YDTu4jBz83Aac4n9iHhYCU/edit?tab=t.0
 
 ### Fase 1 · Ficheros clásicos
 
