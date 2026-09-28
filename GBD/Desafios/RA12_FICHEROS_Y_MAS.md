@@ -2,20 +2,18 @@
 
 ## ENUNCIADO
 
-Dos fases: primero los ejercicios clásicos de ficheros secuenciales, de acceso directo e indexados; después, un recorrido práctico por lo que de verdad hay dentro de un archivo — su extensión, sus metadatos, y cómo manipularlos.
+Dos fases: primero los ejercicios clásicos de ficheros secuenciales, aleatorios e indexados; después, un recorrido práctico por lo que de verdad hay dentro de un archivo — su extensión, sus metadatos, y cómo manipularlos.
 
 Teoría de referencia (pública): `teoria-ficheros.html`.
 
 
 ### Fase 1 · Ficheros clásicos
 
-Repasa antes la teoría de *Sistemas de archivos* si te hace falta — en concreto, secuenciales, acceso directo (aleatorio) e indexados.
-
-> **Antes de empezar:** un fichero de **acceso directo** es lo mismo que un fichero **aleatorio** — son dos nombres para el mismo concepto.
+Repasa antes la teoría de *Sistemas de archivos* si te hace falta — en concreto, secuenciales, aleatorios e indexados.
 
 1. **Agenda secuencial.** Crea un fichero de texto secuencial `agenda_secuencial.txt` con una agenda de teléfonos. Cada contacto debe incluir: Nombre, Apellidos, Dirección, Ciudad, Teléfono. Incluye un mínimo de diez contactos, de al menos cuatro ciudades distintas.
-2. **La misma agenda, en acceso directo.** Partiendo de los datos del ejercicio anterior, crea un fichero de texto de acceso directo `agenda_acceso_directo.txt`. Presenta una justificación del número de caracteres que has elegido para cada campo — recuerda que, a diferencia del secuencial, aquí cada campo necesita un tamaño fijo.
-3. **Indexar la agenda.** Copia `agenda_acceso_directo.txt` a un nuevo fichero llamado `agenda_indexada.txt`. Crea un fichero de índice `agenda_apellidos_nombre.txt` que lo ordene por apellidos y nombre, y otro `agenda_ciudad.txt` que lo ordene por ciudad. Para cada fichero indexado, dibuja el árbol binario correspondiente — el de menor valor siempre a la izquierda, el de mayor a la derecha.
+2. **La misma agenda, en aleatorio.** Partiendo de los datos del ejercicio anterior, crea un fichero de texto aleatorio `agenda_aleatorio.txt`. Presenta una justificación del número de caracteres que has elegido para cada campo — recuerda que, a diferencia del secuencial, aquí cada campo necesita un tamaño fijo.
+3. **Indexar la agenda.** Copia `agenda_aleatorio.txt` a un nuevo fichero llamado `agenda_indexada.txt`. Crea un fichero de índice `agenda_apellidos_nombre.txt` que lo ordene por apellidos y nombre, y otro `agenda_ciudad.txt` que lo ordene por ciudad. Para cada fichero indexado, dibuja el árbol binario correspondiente — el de menor valor siempre a la izquierda, el de mayor a la derecha.
 4. **Borrar e insertar.** Borra un contacto cualquiera de `agenda_indexada.txt` e inserta un contacto nuevo, actualizando a la vez los ficheros de índice asociados (los árboles de los dos apartados anteriores).
 5. **SGBD actuales.** Consulta en internet información sobre las prestaciones de los SGBD comerciales y libres más utilizados hoy en día, y resúmelo brevemente.
 
@@ -91,8 +89,8 @@ Reconstruir a mano los sistemas de almacenamiento previos al SGBD con una agenda
 
 ### Objetivos técnicos
 
-- Crear y comparar tres organizaciones de fichero (secuencial, acceso directo e indexado) sobre los mismos datos de una agenda.
-- Diseñar y justificar la longitud fija de cada campo en el fichero de acceso directo.
+- Crear y comparar tres organizaciones de fichero (secuencial, aleatorio e indexado) sobre los mismos datos de una agenda.
+- Diseñar y justificar la longitud fija de cada campo en el fichero aleatorio.
 - Construir los árboles binarios de índice correspondientes, y mantenerlos sincronizados tras un borrado e inserción.
 - Investigar las prestaciones de los SGBD comerciales y libres más usados actualmente.
 - Comprobar experimentalmente que la extensión de un archivo es solo una etiqueta, no su contenido real (con TrID).
@@ -130,19 +128,19 @@ Acogida 1 · Explorar 1 · Idear 1 · Materializar 4 · Cierre 1 — **Total: 8 
 Observación: sirve de puente directo hacia "por qué hace falta un SGBD", que es el tema de la siguiente unidad.
 
 **Explorar** — 1 sesión
-- Repasar la teoría de ficheros secuenciales, de acceso directo e indexados, y cómo se dibuja el árbol binario de un índice — pond. 2
+- Repasar la teoría de ficheros secuenciales, aleatorios e indexados, y cómo se dibuja el árbol binario de un índice — pond. 2
 - Familiarizarse con las herramientas de la Fase 2 antes de usarlas: qué hace TrID, qué es ExifTool y qué son los metadatos EXIF — pond. 1
 
 Observación: apoyado en la teoría de referencia del módulo sobre sistemas de archivos.
 
 **Idear** — 1 sesión
-- Diseñar los datos de la agenda (mínimo 10 contactos, 4 ciudades distintas) y decidir la longitud fija de cada campo para la versión de acceso directo, justificando cada tamaño — pond. 2
+- Diseñar los datos de la agenda (mínimo 10 contactos, 4 ciudades distintas) y decidir la longitud fija de cada campo para la versión aleatoria, justificando cada tamaño — pond. 2
 - Antes de tocar la imagen y el `.docx`, anotar qué metadatos y qué contenido interno se espera encontrar, para poder comparar después con lo real — pond. 1
 
 Observación: se piensa y se justifica antes de crear ningún archivo.
 
 **Materializar** — 4 sesiones
-- Crear la agenda secuencial y su versión de acceso directo con los campos ya diseñados — pond. 2
+- Crear la agenda secuencial y su versión aleatoria con los campos ya diseñados — pond. 2
 - Indexar la agenda por apellidos+nombre y por ciudad, dibujando el árbol binario de cada índice; borrar un contacto e insertar uno nuevo, actualizando ambos árboles — pond. 3
 - Investigar y resumir las prestaciones de los SGBD comerciales y libres más usados actualmente — pond. 1
 - Fase 2 completa: extensión falsa comprobada con TrID; comparar `.txt` frente a `.docx` y examinar su interior como ZIP; leer, escribir y borrar metadatos EXIF de una foto con ExifTool — pond. 4
