@@ -15,8 +15,11 @@ Realiza una web con 4 páginas para ver fotos — es importante la **disposició
 - Todas las imágenes se podrán ver solas, en otra pestaña (enlace directo a la imagen).
 - Cada subpágina tendrá un enlace para volver a la página principal (la página con el índice).
 - Cada imagen lleva un texto corto debajo.
+- Añadir algo de media para ambientarlo un poco.
 
 **Pista:** una forma cómoda de organizar la disposición de las imágenes es con `<table>`.
+
+<img width="804" height="642" alt="image" src="https://github.com/user-attachments/assets/dd95c5c8-485e-4dfd-bb32-0be62f007bad" />
 
 **FIN ENUNCIADO**
 
@@ -37,6 +40,7 @@ Diseñar y maquetar con HTML puro una galería fotográfica de 4 páginas, usand
 - Enlazar cada imagen a su versión a tamaño completo, abierta en una pestaña nueva.
 - Añadir un texto corto bajo cada imagen.
 - Implementar en cada subpágina un enlace de vuelta a la página índice.
+- Incorporar algún elemento multimedia (audio, vídeo o similar) que ambiente la galería.
 
 ### Módulos implicados
 
@@ -77,6 +81,7 @@ Observación: apoyado en la teoría de referencia del módulo sobre fundamentos 
 **Idear** — 1 sesión
 - Elegir el tema libre de la galería y repartir las fotos entre las 4 páginas, bocetando la disposición de cada una (filas y columnas de la tabla) — pond. 2
 - Redactar el texto corto que acompañará a cada imagen — pond. 1
+- Decidir qué elemento multimedia (audio ambiente, vídeo, GIF…) encaja con el tema elegido y en qué página irá — pond. 1
 
 Observación: se piensa la disposición y el contenido antes de escribir ningún HTML.
 
@@ -84,8 +89,9 @@ Observación: se piensa la disposición y el contenido antes de escribir ningún
 - Crear la página índice con los enlaces a las 4 subpáginas — pond. 1
 - Maquetar cada subpágina con `<table>`, colocando las imágenes según lo bocetado en Idear, con su texto corto debajo de cada una — pond. 3
 - Enlazar cada imagen a su versión a tamaño completo en pestaña nueva, y añadir en cada subpágina el enlace de vuelta al índice — pond. 2
+- Incorporar el elemento multimedia decidido en Idear para ambientar la galería — pond. 1
 
-Observación: es la fase central — se evalúa tanto que la disposición funcione visualmente como que se cumplan los tres requisitos técnicos del enunciado (enlace directo a la imagen, vuelta al índice, texto bajo cada imagen).
+Observación: es la fase central — se evalúa tanto que la disposición funcione visualmente como que se cumplan los requisitos técnicos del enunciado (enlace directo a la imagen, vuelta al índice, texto bajo cada imagen, elemento multimedia de ambientación).
 
 **Cierre** — 1 sesión
 - Puesta en común mostrando la galería de cada alumno, comparando las distintas disposiciones elegidas para el mismo reto.
