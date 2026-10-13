@@ -2,28 +2,13 @@
 
 ## ENUNCIADO
 
-Crea un pequeño juego de dados en PHP, repartido en dos páginas.
+Ver vídeo
 
-### Página `a01.php`
+https://youtu.be/UrsxojWLVTA
 
-- Un combo (`<select>`) **Número de dados**, con los valores 1, 2 o 3.
-- Un combo (`<select>`) **Número de caras**, con los valores 4, 6, 8, 10, 12 y 20.
-- Un campo **Puntos oponente**, donde se introduce el valor que se quiera.
-- Un botón de envío hacia la página de resultado.
-
-Se puede usar CSS libremente para darle estilo a la página.
-
-### Página `a02.php`
-
-- Recibe los datos del formulario y tira tantos dados como se hayan indicado, cada uno con el número de caras elegido, generando un valor aleatorio por dado.
-- Muestra los dados obtenidos (por ejemplo, representando la forma del dado según su número de caras).
-- Calcula los **puntos obtenidos** como la suma de los valores de todos los dados.
-- Compara los puntos obtenidos con los puntos del oponente (introducidos en la página anterior) y muestra en grande si se **gana** o se **pierde**.
-
-### Entrega
-
-- Enlace a GitHub con el código fuente.
-- Vídeo de la ejecución de menos de 1 minuto.
+ENTREGA:
+Enlace a github con el código fuente
+Video de la ejecución de menos de 1 min.
 
 **FIN ENUNCIADO**
 
