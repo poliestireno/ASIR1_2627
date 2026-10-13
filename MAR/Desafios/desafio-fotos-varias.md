@@ -19,7 +19,7 @@ Realiza una web con 4 páginas para ver fotos — es importante la **disposició
 
 **Pista:** una forma cómoda de organizar la disposición de las imágenes es con `<table>`.
 
-<img width="804" height="642" alt="image" src="https://github.com/user-attachments/assets/dd95c5c8-485e-4dfd-bb32-0be62f007bad" />
+[<img width="804" height="642" alt="image" src="https://github.com/user-attachments/assets/dd95c5c8-485e-4dfd-bb32-0be62f007bad" />](https://drive.google.com/file/d/19dwH5n024qytMgNltstqifpMYtwYxsa5/view?usp=sharing)
 
 **FIN ENUNCIADO**
 
