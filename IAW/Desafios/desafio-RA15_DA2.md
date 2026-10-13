@@ -7,7 +7,7 @@ Ver vídeo
 https://youtu.be/UrsxojWLVTA
 
 ENTREGA:
-Enlace a github con el código fuente
+Enlace a github con el código fuente y
 Video de la ejecución de menos de 1 min.
 
 **FIN ENUNCIADO**
