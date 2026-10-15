@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="mMSFrjMoWoC_UH5OxM8H">
+    <mxGraphModel dx="598" dy="325" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HPYynZ3M8pmBiGXvAthu-5" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="Persona" vertex="1">
+          <mxGeometry height="40" width="100" x="180" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HPYynZ3M8pmBiGXvAthu-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Nombre" vertex="1">
+          <mxGeometry height="40" width="100" x="260" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HPYynZ3M8pmBiGXvAthu-7" edge="1" parent="1" source="HPYynZ3M8pmBiGXvAthu-6" style="endArrow=none;html=1;rounded=0;" target="HPYynZ3M8pmBiGXvAthu-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="180" as="sourcePoint" />
+            <mxPoint x="260" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HPYynZ3M8pmBiGXvAthu-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="DNI" vertex="1">
+          <mxGeometry height="40" width="100" x="50" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HPYynZ3M8pmBiGXvAthu-9" edge="1" parent="1" source="HPYynZ3M8pmBiGXvAthu-8" style="endArrow=none;html=1;rounded=0;" target="HPYynZ3M8pmBiGXvAthu-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="180" as="sourcePoint" />
+            <mxPoint x="260" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
