@@ -8,7 +8,7 @@
           <mxGeometry height="40" width="100" x="180" y="180" as="geometry" />
         </mxCell>
         <mxCell id="HPYynZ3M8pmBiGXvAthu-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Nombre" vertex="1">
-          <mxGeometry height="40" width="100" x="260" y="40" as="geometry" />
+          <mxGeometry height="40" width="100" x="20" y="110" as="geometry" />
         </mxCell>
         <mxCell id="HPYynZ3M8pmBiGXvAthu-7" edge="1" parent="1" source="HPYynZ3M8pmBiGXvAthu-6" style="endArrow=none;html=1;rounded=0;" target="HPYynZ3M8pmBiGXvAthu-5" value="">
           <mxGeometry relative="1" as="geometry">
@@ -17,13 +17,52 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HPYynZ3M8pmBiGXvAthu-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="DNI" vertex="1">
-          <mxGeometry height="40" width="100" x="50" y="50" as="geometry" />
+          <mxGeometry height="40" width="100" y="170" as="geometry" />
         </mxCell>
         <mxCell id="HPYynZ3M8pmBiGXvAthu-9" edge="1" parent="1" source="HPYynZ3M8pmBiGXvAthu-8" style="endArrow=none;html=1;rounded=0;" target="HPYynZ3M8pmBiGXvAthu-5" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="100" y="180" as="sourcePoint" />
             <mxPoint x="260" y="180" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="QQVPhpSGYlbKaffOFBB--1" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Edad" vertex="1">
+          <mxGeometry height="40" width="100" x="185" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QQVPhpSGYlbKaffOFBB--2" edge="1" parent="1" source="HPYynZ3M8pmBiGXvAthu-5" style="endArrow=none;html=1;rounded=0;" target="QQVPhpSGYlbKaffOFBB--1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="180" as="sourcePoint" />
+            <mxPoint x="260" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQVPhpSGYlbKaffOFBB--3" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Teléfono" vertex="1">
+          <mxGeometry height="40" width="100" x="300" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QQVPhpSGYlbKaffOFBB--4" edge="1" parent="1" source="QQVPhpSGYlbKaffOFBB--3" style="endArrow=none;html=1;rounded=0;" target="HPYynZ3M8pmBiGXvAthu-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="180" as="sourcePoint" />
+            <mxPoint x="260" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQVPhpSGYlbKaffOFBB--5" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Apellido" vertex="1">
+          <mxGeometry height="40" width="100" x="70" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QQVPhpSGYlbKaffOFBB--6" edge="1" parent="1" source="QQVPhpSGYlbKaffOFBB--5" style="endArrow=none;html=1;rounded=0;" target="HPYynZ3M8pmBiGXvAthu-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="180" as="sourcePoint" />
+            <mxPoint x="260" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQVPhpSGYlbKaffOFBB--7" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Altura" vertex="1">
+          <mxGeometry height="40" width="100" x="350" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QQVPhpSGYlbKaffOFBB--8" edge="1" parent="1" source="HPYynZ3M8pmBiGXvAthu-5" style="endArrow=none;html=1;rounded=0;" target="QQVPhpSGYlbKaffOFBB--7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="180" as="sourcePoint" />
+            <mxPoint x="260" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQVPhpSGYlbKaffOFBB--9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="INSTANCIAS&lt;div&gt;508794334Y Jose Pérez 23 65656565 1.70&lt;div&gt;432543534K Maria Sánchez 66 653565354 1.87&lt;/div&gt;&lt;div&gt;543737474J Jose Martos 23 600435423 1.55&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="430" x="30" y="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
