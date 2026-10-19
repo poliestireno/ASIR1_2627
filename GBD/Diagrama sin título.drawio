@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Página-1">
-    <mxGraphModel dx="657" dy="357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="891" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,6 +89,33 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ROLTNnDlCY8dE87sMOKb-25" edge="1" parent="1" source="ROLTNnDlCY8dE87sMOKb-23" style="endArrow=none;html=1;rounded=0;" target="ROLTNnDlCY8dE87sMOKb-21" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="170" as="sourcePoint" />
+            <mxPoint x="440" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROLTNnDlCY8dE87sMOKb-26" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="edad" vertex="1">
+          <mxGeometry height="40" width="100" x="590" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ROLTNnDlCY8dE87sMOKb-27" edge="1" parent="1" source="ROLTNnDlCY8dE87sMOKb-21" style="endArrow=none;html=1;rounded=0;" target="ROLTNnDlCY8dE87sMOKb-26" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="170" as="sourcePoint" />
+            <mxPoint x="440" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROLTNnDlCY8dE87sMOKb-29" parent="1" style="ellipse;shape=doubleEllipse;margin=3;whiteSpace=wrap;html=1;align=center;" value="Dorsal(m)" vertex="1">
+          <mxGeometry height="40" width="100" x="400" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ROLTNnDlCY8dE87sMOKb-30" edge="1" parent="1" source="ROLTNnDlCY8dE87sMOKb-29" style="endArrow=none;html=1;rounded=0;" target="ROLTNnDlCY8dE87sMOKb-21" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="170" as="sourcePoint" />
+            <mxPoint x="440" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROLTNnDlCY8dE87sMOKb-31" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="N_Federacion" vertex="1">
+          <mxGeometry height="40" width="100" x="410" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ROLTNnDlCY8dE87sMOKb-32" edge="1" parent="1" source="ROLTNnDlCY8dE87sMOKb-31" style="endArrow=none;html=1;rounded=0;" target="ROLTNnDlCY8dE87sMOKb-21" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="170" as="sourcePoint" />
             <mxPoint x="440" y="170" as="targetPoint" />
