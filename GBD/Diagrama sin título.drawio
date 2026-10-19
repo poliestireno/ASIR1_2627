@@ -76,6 +76,24 @@
             <mxPoint x="440" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ROLTNnDlCY8dE87sMOKb-21" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="Futbolista" vertex="1">
+          <mxGeometry height="40" width="100" x="590" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ROLTNnDlCY8dE87sMOKb-23" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="Juega con" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ROLTNnDlCY8dE87sMOKb-24" edge="1" parent="1" source="ROLTNnDlCY8dE87sMOKb-1" style="endArrow=none;html=1;rounded=0;" target="ROLTNnDlCY8dE87sMOKb-23" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="170" as="sourcePoint" />
+            <mxPoint x="440" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROLTNnDlCY8dE87sMOKb-25" edge="1" parent="1" source="ROLTNnDlCY8dE87sMOKb-23" style="endArrow=none;html=1;rounded=0;" target="ROLTNnDlCY8dE87sMOKb-21" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="170" as="sourcePoint" />
+            <mxPoint x="440" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
