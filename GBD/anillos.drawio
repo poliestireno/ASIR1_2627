@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="mkH-ClK9wMtw2FWgM9F_">
+    <mxGraphModel dx="837" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-v2OWRt30gN842nLOaNh-1" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="Guerrero" vertex="1">
+          <mxGeometry height="40" width="100" x="200" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="-v2OWRt30gN842nLOaNh-2" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="Ejercito" vertex="1">
+          <mxGeometry height="40" width="100" x="460" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-v2OWRt30gN842nLOaNh-3" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="Arma" vertex="1">
+          <mxGeometry height="40" width="100" x="180" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="-v2OWRt30gN842nLOaNh-4" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="Batalla" vertex="1">
+          <mxGeometry height="40" width="100" x="490" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="-v2OWRt30gN842nLOaNh-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="Código identificador" vertex="1">
+          <mxGeometry height="40" width="100" x="280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-v2OWRt30gN842nLOaNh-8" edge="1" parent="1" source="-v2OWRt30gN842nLOaNh-1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="-v2OWRt30gN842nLOaNh-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="180" as="sourcePoint" />
+            <mxPoint x="500" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-v2OWRt30gN842nLOaNh-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Nombre Completo" vertex="1">
+          <mxGeometry height="40" width="100" x="60" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-v2OWRt30gN842nLOaNh-11" edge="1" parent="1" source="-v2OWRt30gN842nLOaNh-9" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="-v2OWRt30gN842nLOaNh-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="180" as="sourcePoint" />
+            <mxPoint x="350" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-v2OWRt30gN842nLOaNh-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Linaje" vertex="1">
+          <mxGeometry height="40" width="100" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="-v2OWRt30gN842nLOaNh-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Nombre" vertex="1">
+          <mxGeometry height="40" width="100" x="120" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="-v2OWRt30gN842nLOaNh-14" edge="1" parent="1" source="-v2OWRt30gN842nLOaNh-12" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="-v2OWRt30gN842nLOaNh-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="180" as="sourcePoint" />
+            <mxPoint x="350" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-v2OWRt30gN842nLOaNh-15" edge="1" parent="1" source="-v2OWRt30gN842nLOaNh-13" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="-v2OWRt30gN842nLOaNh-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="180" as="sourcePoint" />
+            <mxPoint x="350" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-v2OWRt30gN842nLOaNh-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="fecha nacimiento" vertex="1">
+          <mxGeometry height="40" width="100" x="40" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="-v2OWRt30gN842nLOaNh-17" edge="1" parent="1" source="-v2OWRt30gN842nLOaNh-16" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="-v2OWRt30gN842nLOaNh-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="180" as="sourcePoint" />
+            <mxPoint x="350" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-v2OWRt30gN842nLOaNh-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="edad" vertex="1">
+          <mxGeometry height="40" width="100" y="183" as="geometry" />
+        </mxCell>
+        <mxCell id="-v2OWRt30gN842nLOaNh-19" edge="1" parent="1" source="-v2OWRt30gN842nLOaNh-18" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="-v2OWRt30gN842nLOaNh-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="180" as="sourcePoint" />
+            <mxPoint x="350" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-v2OWRt30gN842nLOaNh-20" parent="1" style="ellipse;shape=doubleEllipse;margin=3;whiteSpace=wrap;html=1;align=center;" value="Apodos" vertex="1">
+          <mxGeometry height="40" width="100" x="170" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-v2OWRt30gN842nLOaNh-21" edge="1" parent="1" source="-v2OWRt30gN842nLOaNh-20" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="-v2OWRt30gN842nLOaNh-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="180" as="sourcePoint" />
+            <mxPoint x="350" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
