@@ -7,7 +7,7 @@
         <mxCell id="gJawG_GFplXgSEtemjwh-1" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="Persona" vertex="1">
           <mxGeometry height="40" width="100" x="220" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="gJawG_GFplXgSEtemjwh-2" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="es padre" vertex="1">
+        <mxCell id="gJawG_GFplXgSEtemjwh-2" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="es madre" vertex="1">
           <mxGeometry height="60" width="120" x="450" y="130" as="geometry" />
         </mxCell>
         <mxCell id="gJawG_GFplXgSEtemjwh-3" edge="1" parent="1" source="gJawG_GFplXgSEtemjwh-1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="gJawG_GFplXgSEtemjwh-2" value="">
@@ -31,6 +31,27 @@
         <mxCell id="gJawG_GFplXgSEtemjwh-6" connectable="0" parent="gJawG_GFplXgSEtemjwh-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="(1,1)" vertex="1">
           <mxGeometry relative="1" x="0.0008" y="-2" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3z2JvRCP5N1v-7EZ2BMm-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Ived&lt;div&gt;2 David&lt;/div&gt;&lt;div&gt;3 Aarón&lt;/div&gt;&lt;div&gt;4 Sofia hija Ived&lt;/div&gt;&lt;div&gt;5 Daniel hijo David&lt;/div&gt;&lt;div&gt;6 Aroa hiija Aarón&lt;/div&gt;&lt;div&gt;7 Victoria madre Ived&lt;/div&gt;&lt;div&gt;8 Daniela madre David&lt;/div&gt;&lt;div&gt;Sonia madre Aarón&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="354" x="60" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="3z2JvRCP5N1v-7EZ2BMm-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="id" vertex="1">
+          <mxGeometry height="40" width="100" x="90" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3z2JvRCP5N1v-7EZ2BMm-4" edge="1" parent="1" source="3z2JvRCP5N1v-7EZ2BMm-3" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="gJawG_GFplXgSEtemjwh-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="190" as="sourcePoint" />
+            <mxPoint x="490" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3z2JvRCP5N1v-7EZ2BMm-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Nombre" vertex="1">
+          <mxGeometry height="40" width="100" x="60" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3z2JvRCP5N1v-7EZ2BMm-6" edge="1" parent="1" source="3z2JvRCP5N1v-7EZ2BMm-5" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="gJawG_GFplXgSEtemjwh-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="190" as="sourcePoint" />
+            <mxPoint x="490" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
