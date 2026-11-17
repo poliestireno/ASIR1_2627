@@ -1,0 +1,39 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="a-VWjktqc0GeA4A3yjPT">
+    <mxGraphModel dx="837" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gJawG_GFplXgSEtemjwh-1" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="Persona" vertex="1">
+          <mxGeometry height="40" width="100" x="220" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gJawG_GFplXgSEtemjwh-2" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="es padre" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gJawG_GFplXgSEtemjwh-3" edge="1" parent="1" source="gJawG_GFplXgSEtemjwh-1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="gJawG_GFplXgSEtemjwh-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="190" as="sourcePoint" />
+            <mxPoint x="490" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJawG_GFplXgSEtemjwh-4" connectable="0" parent="gJawG_GFplXgSEtemjwh-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="(0,N)" vertex="1">
+          <mxGeometry relative="1" x="-0.0615" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJawG_GFplXgSEtemjwh-5" edge="1" parent="1" source="gJawG_GFplXgSEtemjwh-1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="gJawG_GFplXgSEtemjwh-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="330" y="190" as="sourcePoint" />
+            <mxPoint x="490" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJawG_GFplXgSEtemjwh-6" connectable="0" parent="gJawG_GFplXgSEtemjwh-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="(1,1)" vertex="1">
+          <mxGeometry relative="1" x="0.0008" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
